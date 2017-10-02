@@ -1,0 +1,18 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Program which creates one child process , child process write something in unamed pipe and parent process read the data from that pipe.
+
+Example -
+# make
+gcc -o pipeDemo program.c
+
+[# make run
+./pipeDemo
+Enter the data to be sent to parent: hello world
+hello world
+
